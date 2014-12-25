@@ -1,0 +1,10 @@
+- name: install
+  yum: name={{ elasticsearch_rpm_url }} state=present
+
+- name: chkconfig on
+  shell: chkconfig elasticsearch on
+
+- include: configure.yml
+
+- name: elasticsearch restart
+  shell: /etc/init.d/elasticsearch restart
