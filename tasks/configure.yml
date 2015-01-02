@@ -1,4 +1,4 @@
 - name: install plugins 
-  shell: "{{ elasticsearch_home_dir }}/bin/plugin --install {{ item }}"
-  with_items: elasticsearch_plugins
+  shell: "{{ es_home_dir }}/bin/plugin --install {{ item }}"
+  with_items: es_plugins
 

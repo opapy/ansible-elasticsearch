@@ -1,7 +1,7 @@
 - name: install
   yum: name={{ item }} state=present
   with_items:
-    - "{{ elasticsearch_rpm_url }}"
+    - "{{ es_rpm_url }}"
     - java-1.8.0-openjdk
 
 - name: chkconfig on

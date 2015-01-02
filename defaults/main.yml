@@ -1,10 +1,10 @@
-elasticsearch_version: 1.4.2
-elasticsearch_rpm_url: https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-{{ elasticsearch_version }}.noarch.rpm
+es_version: 1.4.2
+es_rpm_url: https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-{{ es_version }}.noarch.rpm
 
-elasticsearch_yum_dependencies:
+es_yum_dependencies:
   - java-1.8.0-openjdk
 
-elasticsearch_home_dir: /usr/share/elasticsearch
+es_home_dir: /usr/share/elasticsearch
 
-elasticsearch_plugins: []
+es_plugins: []
   # - elasticsearch/elasticsearch-analysis-kuromoji/2.4.1
