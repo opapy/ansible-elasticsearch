@@ -1,4 +1,4 @@
-es_version: 1.4.4
+es_version: 1.5.2
 es_rpm_url: https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-{{ es_version }}.noarch.rpm
 
 es_yum_dependencies:
